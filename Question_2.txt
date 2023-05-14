@@ -1,0 +1,23 @@
+Question_2: Write a blog about objects and its internal representation in Javascript ?
+--------------------------------------------------------------------------------------
+Answer:
+
+Object:Object is a realtime entity which is used in Javascript it also one kind of variable.
+
+Object representation:represented like 
+
+const car={
+    color:"red",
+    brand:"Maruthi Suzuzki",
+    model:"Baleno",
+    price:"12Lakhs",
+    start:function(){console.log("car started")}
+}; 
+its used to store value in name and value key pair.It can accessed by two ways
+
+1.Dot notation(.)
+2.Bracket Notation ([]).it also has own properties and method,properties are name and value
+and method are some action performed in object.
+car.start()
+car.drive()
+car.stop()
